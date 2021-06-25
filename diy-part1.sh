@@ -16,4 +16,12 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-git clone https://github.com/pymumu/smartdns.git /package
+git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns/
+
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns/
+
+./scripts/feeds update -a
+
+./scripts/feeds install -a
+
+sed -i 's/15744k/32128k/g' target/linux/ramips/image/mt7621.mk
