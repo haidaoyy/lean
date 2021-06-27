@@ -20,8 +20,6 @@ git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smar
 
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns/
 
-./scripts/feeds update -a
+./scripts/feeds update -a && ./scripts/feeds install -a
 
-./scripts/feeds install -a
 
-sed -i 's/15744k/32128k/g' target/linux/ramips/image/mt7621.mk
