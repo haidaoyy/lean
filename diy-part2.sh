@@ -11,4 +11,4 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/5.4/5.10/g' target/linux/ath79/Makefile
