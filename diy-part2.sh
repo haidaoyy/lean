@@ -11,4 +11,4 @@
 #
 
 # Modify default IP
-sed -i 's/5.4/5.10/g' target/linux/ath79/Makefile
+# sed -i 's/5.4/5.10/g' target/linux/ath79/Makefile
