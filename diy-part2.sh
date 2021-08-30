@@ -13,10 +13,10 @@
 # Modify default IP
 # sed -i 's/5.4/5.10/g' target/linux/ath79/Makefile
 
-sed -i '24d' feeds/kenzok/smartdns/Makefile
+#sed -i '24d' feeds/kenzok/smartdns/Makefile
 
-sed -i 's/1.2021.35/28.2021.08/g' feeds/kenzok/smartdns/Makefile
+#sed -i 's/1.2021.35/28.2021.08/g' feeds/kenzok/smartdns/Makefile
 
-sed -i 's/11cf7b614c2ad42acf12cf4843daa1b67696763b/f50e4dd0813da9300580f7188e44ed72a27ae79c/g' feeds/kenzok/smartdns/Makefile
+#sed -i 's/11cf7b614c2ad42acf12cf4843daa1b67696763b/f50e4dd0813da9300580f7188e44ed72a27ae79c/g' feeds/kenzok/smartdns/Makefile
 
 
