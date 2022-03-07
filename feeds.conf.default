@@ -12,5 +12,5 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git routing https://git.openwrt.org/feed/routing.git
 #src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git lienol https://github.com/Lienol/openwrt-package.git;main
-src-git kenzok https://github.com/haidaoyy/openwrt-packages
+src-git kenzok https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
